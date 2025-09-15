@@ -11,6 +11,6 @@ def is_prime(n):
 
 print("Find prime number b/w 1 and 100")
 
-for num in range(1 , 101):
-    if is_prime(num):
-        print(num , end =' ')
+for n in range(1 , 101):
+    if is_prime(n):
+        print(n, end =' ')
